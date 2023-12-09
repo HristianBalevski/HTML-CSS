@@ -65,8 +65,8 @@ table thead th {
   table {
       border-collapse: collapse;
       width: 50%;
-      
-      
+      margin-left: auto;
+      margin-right: auto;  
     }
     
   table, th, td {
@@ -82,11 +82,12 @@ table thead th {
     table thead th {
         text-align: center;
       }
- .icons {
-    font-size: 20px;
-    list-style-type: none;
-    padding: 10px;
- }
+      .icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+    }
  
  footer {
     background-color: #EEEEEE;
@@ -102,3 +103,9 @@ table thead th {
  footer p {
     margin: 0;
  }
+
+ .find-us {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+}
