@@ -1,0 +1,31 @@
+html {
+    font-family:  Helvetica, sans-serif;
+}
+
+body {
+    font: inherit;
+    margin: 50px;
+    
+}
+header {
+    border-bottom: 2px solid black;
+}
+header h1 {
+    display: inline-block;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+nav {
+    display: inline-block;
+ }
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+ }
+
+ 
+ 
