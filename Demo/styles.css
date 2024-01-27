@@ -1,0 +1,67 @@
+.container {
+    
+}
+
+.item-1 {
+    background-color: darkred;
+}
+.item-2 {
+    background-color: lightblue;
+}
+.item-3 {
+    background-color: rgb(17, 246, 1);
+}
+.item-4 {
+    background-color: black;
+}
+.item-5 {
+    background-color: pink;
+}
+.item-6 {
+    background-color: bisque;
+}
+.item-7 {
+    background-color: blueviolet;
+}
+.item-8 {
+    background-color: yellowgreen;
+}
+.item-9 {
+    background-color: chocolate;
+}
+.item-10 {
+    background-color: darkgrey;
+}
+.item-11 {
+    background-color: cyan;
+    
+}
+.item-12 {
+    background-color: darkmagenta;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10,
+.item-11,
+.item-12
+ {
+    border-radius: 0.4em;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin: 10px;
+    float: left;
+
+    
+}
+

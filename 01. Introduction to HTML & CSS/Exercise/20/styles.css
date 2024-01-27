@@ -17,9 +17,10 @@ header * {
 
 nav li { 
     margin:10px;
+    
 }
 
-nav li a {
+a {
     text-decoration: none;
 }
 
