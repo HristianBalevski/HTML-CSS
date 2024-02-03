@@ -1,67 +1,39 @@
-.container {
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.item-1 {
-    background-color: darkred;
+.container {
+    border: 1px solid limegreen;
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    gap: 1em;
+    
+    flex-direction: column;
 }
-.item-2 {
-    background-color: lightblue;
+.item
+ {
+    border: 1px solid black;
+    margin: 0.2em;
+    padding: 1em;
+    color: darkgrey;
+
 }
-.item-3 {
-    background-color: rgb(17, 246, 1);
-}
-.item-4 {
-    background-color: black;
-}
-.item-5 {
+
+.item:nth-child(1) {
     background-color: pink;
 }
-.item-6 {
-    background-color: bisque;
-}
-.item-7 {
-    background-color: blueviolet;
-}
-.item-8 {
-    background-color: yellowgreen;
-}
-.item-9 {
-    background-color: chocolate;
-}
-.item-10 {
-    background-color: darkgrey;
-}
-.item-11 {
-    background-color: cyan;
-    
-}
-.item-12 {
-    background-color: darkmagenta;
+
+.item:nth-child(2) {
+    background-color: skyblue;
 }
 
-.item-1,
-.item-2,
-.item-3,
-.item-4,
-.item-5,
-.item-6,
-.item-7,
-.item-8,
-.item-9,
-.item-10,
-.item-11,
-.item-12
- {
-    border-radius: 0.4em;
-    color: #fff;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    line-height: 80px;
-    margin: 10px;
-    float: left;
+.item:nth-child(3) {
+    background-color: darkred;
+}
 
-    
+.item:nth-child(4) {
+    background-color: green;
 }
 
