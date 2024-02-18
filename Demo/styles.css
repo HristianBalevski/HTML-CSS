@@ -1,39 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.nav-bar a {
+    color: white;
+}
+
+.nav-bar .social li,
+.nav-bar .social a {
+    display: inline-block;
 }
 
 .container {
-    border: 1px solid limegreen;
-    margin: 2em;
-    padding: 2em;
-    display: flex;
-    gap: 1em;
-    
-    flex-direction: column;
+    max-width: 800px;
+    background-color: bisque;
+    margin: 0 auto;
+;
 }
-.item
- {
-    border: 1px solid black;
-    margin: 0.2em;
-    padding: 1em;
-    color: darkgrey;
-
-}
-
-.item:nth-child(1) {
-    background-color: pink;
-}
-
-.item:nth-child(2) {
-    background-color: skyblue;
-}
-
-.item:nth-child(3) {
-    background-color: darkred;
-}
-
-.item:nth-child(4) {
-    background-color: green;
-}
-
