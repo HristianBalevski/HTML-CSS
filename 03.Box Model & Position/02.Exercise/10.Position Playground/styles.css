@@ -1,0 +1,76 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+.viewport {
+    width: 850px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+
+.section-one {
+    background: hsla(199, 95%, 26%, 1);
+
+    background: linear-gradient(90deg, hsla(199, 95%, 26%, 1) 27%, hsla(158, 85%, 39%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(199, 95%, 26%, 1) 27%, hsla(158, 85%, 39%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(199, 95%, 26%, 1) 27%, hsla(158, 85%, 39%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#035A82", endColorstr="#0FB679", GradientType=1);
+}
+
+.section-two {
+    background: hsla(335, 74%, 49%, 1);
+
+    background: linear-gradient(90deg, hsla(335, 74%, 49%, 1) 26%, hsla(335, 92%, 52%, 1) 37%, hsla(30, 97%, 46%, 1) 80%);
+
+    background: -moz-linear-gradient(90deg, hsla(335, 74%, 49%, 1) 26%, hsla(335, 92%, 52%, 1) 37%, hsla(30, 97%, 46%, 1) 80%);
+
+    background: -webkit-linear-gradient(90deg, hsla(335, 74%, 49%, 1) 26%, hsla(335, 92%, 52%, 1) 37%, hsla(30, 97%, 46%, 1) 80%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#DA206D", endColorstr="#F51371", GradientType=1);
+}
+
+.section-one,
+.section-two {
+    position: relative;
+}
+
+.card img {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2em;
+}
+
+.section-one .card svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 35%;
+    right: 34%;
+    fill: white;
+    cursor: pointer;
+}
+
+.section-two .card svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 15%;
+    right: 34%;
+    fill: white;
+    cursor: pointer;
+}
+
+.section-two .card svg:hover {
+    fill: orange;
+}
+
+.section-one .card svg:hover {
+    fill: greenyellow;
+}

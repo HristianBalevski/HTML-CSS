@@ -1,0 +1,48 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+body {
+    font: inherit;
+    background-color: #dedfe0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.button {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.fill {
+    background-color: black;
+
+}
+
+.button {
+    color: black;
+}
+
+.button:nth-child(4):hover {
+    border-color: green;
+    color: green;
+}
+
+.button.fill {
+    color: white;
+}
+
+.hover:hover {
+    background-color: green;
+    border-color: green;
+}

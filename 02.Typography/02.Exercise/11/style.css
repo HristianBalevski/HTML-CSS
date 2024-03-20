@@ -1,0 +1,98 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body,
+table,
+input {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2.4em;
+
+}
+
+h3 {
+    font-size: 2.0em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+
+}
+
+th {
+    background-color: #CCCCCC;
+    width: 1700px;
+    height: 45px;
+    text-align: left;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+blockquote {
+    border-left: 2px solid #ddd;
+    padding-left: 1.5em;
+}
+
+tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+.author {
+    text-align: right;
+}
+
+.disc {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.level-2 {
+    border-top: 2px solid #ddd;
+    padding-top: 1.0em;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .container {
+            border: 2px solid black;
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .item {
+            border: 1px green solid;
+            padding: 0.5em;
+            flex-basis: 300px;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        /* .item:nth-child(3) {
+            flex-grow: 4;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+
+</html>

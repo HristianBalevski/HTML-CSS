@@ -1,0 +1,23 @@
+html {
+    font: 16px/1.5 Raleway, sans-serif;
+}
+
+body {
+    font: inherit;
+    padding: 2em;
+}
+
+h1,
+h2 {
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.disc {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
