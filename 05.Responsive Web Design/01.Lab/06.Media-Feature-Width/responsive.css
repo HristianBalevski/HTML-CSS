@@ -1,0 +1,11 @@
+@media (width: 360px) {
+    article {
+        color: red;
+    }
+}
+
+@media (min-width: 35rem) and (max-width: 50rem) {
+    article {
+        background-color: yellow;
+    }
+}
