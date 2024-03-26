@@ -581,5 +581,145 @@ CSS свойството **flex** се използва във Flexbox моде�
 ```
 ---
 
+## 07.Working with Forms
+
+**01.What are Forms and How do we Use Them?**
+- Формите в уеб разработката са интерактивни елементи, които позволяват на потребителите да въвеждат и предават информация към уеб приложенията. Те се използват за събиране на данни от потребителите, като например регистрационни форми, форми за вход, контактни форми и други, които се използват за комуникация и взаимодействие с потребителите на уебсайта.
+
+Примерен HTML код:
+
+```
+<form action="/submit_form" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <input type="submit" value="Submit">
+</form>
+```
+**02.Styling a Form.**
+- Стилизирането на форми се постига чрез CSS, което позволява на дизайнера да променя външния вид на формите, като прилага различни цветове, шрифтове, размери, бордюри и други стилове.
+
+Примерен CSS код за стилизиране на форма:
+
+```
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+```
+
+**03.Responsive Forms with Flexbox**
+- За да направим формите Responsive с Flexbox можем да използваме гъвкави контейнери.
+
+Примерен CSS код за стилизиране на респонсивна форма с Flexbox:
+
+```
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+```
+**04.Advanced Styling**
+- За да приложим по-сложни стилове към формите, можем да използваме напреднали CSS техники като псевдокласове, псевдоелементи и CSS градиенти.
+
+Примерен CSS код за напредно стилизиране на форми:
+
+```
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background: linear-gradient(to bottom, #4CAF50, #45a049);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to bottom, #45a049, #4CAF50);
+}
+```
+
+
+
 
 
