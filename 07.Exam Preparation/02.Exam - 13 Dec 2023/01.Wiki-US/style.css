@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font-family: Agbalumo;
+}
+
+
+.page-header {
+    text-align: center;
+    padding-left: 1.14em;
+    padding-right: 3em;
+    padding-top: 2em;
+}
+
+.page-header h1 {
+    font-size: 40px;
+}
+
+.page-header h1,
+h3 {
+    border-bottom: 2px solid black;
+}
+
+.page-header,
+.footer {
+    background-color: #D5EBEA;
+}
+
+.media {
+    border: 2px solid black;
+    padding: 1em;
+    text-indent: 2em;
+    flex: 0 0 38%;
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.media img {
+    padding-bottom: 2em;
+
+
+}
+
+.text {
+    flex: 1 0 62%;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-right: 1.5em;
+    font-size: 17px;
+
+}
+
+.container {
+    max-width: 870px;
+    margin: 5% auto;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    padding: 1.14em;
+    gap: 1em;
+}
+
+.text p {
+    text-indent: 2em;
+    padding-top: 1em;
+
+}
+
+.us-facts {
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.footer {
+    padding: 1em 2em;
+    padding-bottom: 0;
+}
+
+.footer>p {
+    padding-bottom: 1em;
+}
